@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(243, 232, 232);
+    
+}
+body{
+          background-color:rgb(76, 172, 119);
+}
+#title{ 
+    display: block;
+    max-width: 100%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+#title h1{
+    color: rgb(46, 38, 38);
+}
+#description{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#description p {
+    color: rgb(26, 22, 22);
+}
+.form-class{
+    display: block;
+    width:75%;
+    margin: 10px auto;
+    padding: 20px 20px;
+    background-color: rgba(6, 11, 37, 0.753);
+    
+}
+::placeholder{
+    color: rgb(126, 100, 100);
+}
+.form, .select ,.feature, #submit  {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 0px 60px;
+}
+.radio ,.checkbox ,.comment {   max-width: 70%;
+    margin: 0px 60px;
+
+}
+label,input,select,p{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+option{
+    color: blue;
+}
+select{
+    color: rgb(11, 11, 12);
+}
+#submit{
+    display: block;
+    width: 30%;
+    margin: 20px 60px;
+    padding: 10px 105px;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(91, 161, 82);
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 1.2rem;
+}
+#submit:hover{
+    color: rgb(149, 173, 218);
+    background: rgb(36, 35, 34);
+    border: 1px solid rgb(241, 20, 112);
+    border-radius: 20px;
+}
+textarea{
+    border: 1px solid rgb(38, 38, 136);
+    width: 50%;
+    color: black;
+    font-size: 1.2rem;
+}
+input{
+    color: black;
+}
+textarea:hover{
+    border: 1px solid blue;
+}
+textarea:checked{
+    border-radius: 20px;
+}
